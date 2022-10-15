@@ -18,4 +18,4 @@ serde_derive = "1.0.0"
 rust-crypto = "0.2.36"
 hex = "0.4.0"
 web3 = { git = "https://github.com/cartesi/rust-web3", branch = "v0.6.0-implement-chain-id" }
-ethcore = { git = "https://github.com/cartesi/parity-ethereum", branch = "stable-fixed" }
+ethcore = { git = "https://github.com/juztamau5/parity-ethereum", branch = "stable-fixed" }
