@@ -1,4 +1,4 @@
-FROM rust:1.38 as build
+FROM rust:1.64 as build
 
 ENV BASE /opt/cartesi
 RUN \
@@ -7,7 +7,7 @@ RUN \
     rm -rf /var/lib/apt/lists/*
 
 # install wagyu utility for mnemonic handling
-RUN cargo install wagyu
+RUN cargo install --locked wagyu
 
 WORKDIR $BASE/dapp
 
